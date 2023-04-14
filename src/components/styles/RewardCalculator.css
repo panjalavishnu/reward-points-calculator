@@ -1,0 +1,70 @@
+.reward-calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .calculate-points-button {
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    background-color: #0066cc;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    cursor: pointer;
+  }
+  
+  .points-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+  }
+  
+  .points-table th,
+  .points-table td {
+    padding: 0.5rem;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .points-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .points-table td {
+    text-align: center;
+  }
+  
+  .points-table th:first-child,
+  .points-table td:first-child {
+    width: 20%;
+  }
+  
+  .points-table th:last-child,
+  .points-table td:last-child {
+    width: 20%;
+  }
+  
+  .table-container {
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+  }
+  
+  .total-points {
+    font-weight: bold;
+  }
+  

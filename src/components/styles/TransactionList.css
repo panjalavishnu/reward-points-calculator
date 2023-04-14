@@ -1,0 +1,71 @@
+/* .transaction-list {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+.transaction-header {
+  font-weight: bold;
+  background-color: #ddd;
+  display: table-row;
+}
+
+.transaction-row {
+  display: table-row;
+}
+
+.transaction-field {
+  display: table-cell;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.transaction-data {
+  display: table-cell;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.transaction-data:last-child {
+  text-align: right;
+} */
+
+
+.transaction-list {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+.transaction-header {
+  font-weight: bold;
+  background-color: #ddd;
+  display: table-row;
+}
+
+.transaction-row {
+  display: table-row;
+}
+
+.transaction-field,
+.transaction-data {
+  display: table-cell;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.transaction-data:last-child {
+  text-align: right;
+  border-right: none;
+}
+
+.transaction-data {
+  border: none;
+}

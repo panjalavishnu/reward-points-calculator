@@ -1,0 +1,41 @@
+/* .transaction-item {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #dcdcdc;
+    padding: 5px 0;
+    font-size: 14px;
+  }
+  
+  .transaction-field {
+    flex: 1;
+    text-align: center;
+    padding: 0 10px;
+  }
+   */
+
+   .transaction-field {
+    display: inline-block;
+    min-width: 100px;
+  }
+  
+  .transaction-id {
+    text-align: center;
+    width: 50px;
+  }
+  
+  .customer-name {
+    text-align: left;
+    width: 200px;
+  }
+  
+  .purchase-amount {
+    text-align: right;
+    width: 100px;
+  }
+  
+  .points-earned {
+    text-align: right;
+    width: 100px;
+  }
+  
+  
